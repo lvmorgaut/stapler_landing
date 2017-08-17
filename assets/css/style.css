@@ -1,0 +1,206 @@
+body{
+	background-color: #1D1D1D;
+	font-family: "Cabin";
+	line-height: 22px;
+	font-size: 8px;
+	color: #E0E0E0;
+}
+
+a{
+	text-decoration: none;
+}
+
+@font-face {
+  font-family: "AvenirNext-Bold";
+  src: url("../fonts/Avenir Next.ttc");
+}
+
+@font-face {
+  font-family: "AvenirNext-demiBold";
+  src: url("../fonts/Avenir Next Demi Bold.otf");
+}
+
+.header{
+	display: flex;
+	margin-top: 30vh;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header_logo{
+	width: 333px;
+	height: 63px;
+	margin: auto;
+}
+
+.header_text{
+	font-size: 1.75em;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	margin-top: 7em;
+}
+
+.header_fb_svg{
+	width: 210px;
+	height: 40px;
+}
+
+.header_fb{
+	margin: auto;
+	margin-top: 7em;
+	border-radius: 100px;
+	height: 40px;
+	width: 210px;
+	box-shadow: 0 1px 15px 0 rgba(15,87,152,0.80);
+}
+
+.header_fb:hover{
+	box-shadow: 0 2px 30px 0 rgba(12, 70, 123, 0.80);
+}
+
+.infos{
+	display: flex;
+	width: 100%;
+}
+
+.infos_text{
+	margin-top: 40vh;
+	width: 40vw;
+	z-index: 1;
+}
+
+.infos_text1{
+	margin-left: 8vw;
+}
+
+.infos_text_title{
+	font-family: AvenirNext-Bold;
+	font-size: 4em;
+	color: #FFFFFF;
+	letter-spacing: 0.26px;
+	line-height: 40px;
+}
+
+.infos_text_subtitle{
+	margin-top: 4em;
+	font-size: 1.75em;
+}
+
+.green_text{
+	color: #39FF44;
+}
+
+.infos_text2{
+	margin-left: 8vw;
+	margin-top: 14em;
+}
+
+.infos_side_logo{
+	margin-top: 25em;
+	position: absolute;
+	right: 0;
+	-ms-align-self: flex-end;
+	align-self: flex-end;
+	z-index: 0;
+}
+
+.stores{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	margin-top: 30vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.store_text{
+	font-family: AvenirNext-Bold;
+	font-size: 3em;
+	color: #FFFFFF;
+	letter-spacing: 0.26px;
+}
+
+.stores_logos{
+	margin-top: 7.5em;
+}
+
+.store_logo_google{
+	margin-left: 7em;
+}
+
+footer{
+	margin-top: 20vh;
+	position: absolute;
+	float: bottom;
+	width: 100%;
+	background-color: #343434;
+	margin-bottom: 1em;
+}
+
+.footer_img{
+	width: 42vw;
+	display: inline-block;
+	margin-top: -6em;
+}
+
+.footer_visit_card{
+	margin-left: 8vw;
+}
+
+.footer_text{
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-top: 5em;
+	display: inline-block;
+}
+
+.infos_text_mail{
+	font-size: 1.75em;
+}
+
+.infos_text_liens_mails{
+	font-size: 1.5em;
+	font-family: AvenirNext-demiBold;
+	font-weight: 10;
+	text-decoration-line: underline;
+}
+
+.made_with_love{
+	flex-grow: 2;
+	margin-top: 8em;
+	font-size: 1.75em;
+	margin-bottom: 2em;
+	font-family: AvenirNext-demiBold;
+	text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+	.footer_img{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.header_text{
+	font-size: 1.75em;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 7em;
+}
+.infos_text{
+	width: 80%;
+	z-index: 1;
+}
+.stores_logos{
+	flex-direction: column;
+	display: flex;
+}
+.store_logo_google{
+	margin-left: 0em;
+	margin-top: 7em;
+}
+}
